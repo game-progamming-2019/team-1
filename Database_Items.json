@@ -1,0 +1,48 @@
+{
+    "texture_atlas": "res://textures/Testuratlas.png",
+    "1": {
+        "name": "Messer",
+        "icon": {
+            "posX": 0,
+            "posY": 0,
+            "relX": 32,
+            "relY": 32
+        },
+        "type": "eqiupment",
+        "description": "This is equipment"
+    },
+    "2": {
+        "name": "Item 2",
+        "icon": {
+            "posX": 0,
+            "posY": 0,
+            "relX": 32,
+            "relY": 32
+        },
+        "type": "reciepes",
+        "description": "This is a reciepe"
+    },
+    "3": {
+        "name": "Item 3",
+        "icon": {
+            "posX": 0,
+            "posY": 0,
+            "relX": 32,
+            "relY": 32
+        },
+        "type": "ingredients",
+        "description": "This is a ingredient"
+    },
+    "4": {
+        "name": "Item 4",
+        "icon": {
+            "posX": 0,
+            "posY": 0,
+            "relX": 32,
+            "relY": 32
+        },
+        "type": "collectable",
+        "description": "This is a ingredient"
+    }
+
+}
