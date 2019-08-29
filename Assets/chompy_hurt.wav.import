@@ -1,0 +1,21 @@
+[remap]
+
+importer="wav"
+type="AudioStreamSample"
+path="res://.import/chompy_hurt.wav-f908cfb749a98a3f40772b533acdc34e.sample"
+
+[deps]
+
+source_file="res://Assets/chompy_hurt.wav"
+dest_files=[ "res://.import/chompy_hurt.wav-f908cfb749a98a3f40772b533acdc34e.sample" ]
+
+[params]
+
+force/8_bit=false
+force/mono=false
+force/max_rate=false
+force/max_rate_hz=44100
+edit/trim=true
+edit/normalize=true
+edit/loop=false
+compress/mode=0
