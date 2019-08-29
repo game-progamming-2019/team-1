@@ -1,0 +1,30 @@
+[gd_scene load_steps=6 format=2]
+
+[ext_resource path="res://inventar.gd" type="Script" id=1]
+[ext_resource path="res://Assets/Erdbeere.png" type="Texture" id=2]
+[ext_resource path="res://Assets/Gegner/Schokolade1.png" type="Texture" id=3]
+[ext_resource path="res://Assets/Sammelgegenstände/Maoam kracher gelb.png" type="Texture" id=4]
+[ext_resource path="res://itemlist.gd" type="Script" id=5]
+
+[node name="inventar" type="CanvasLayer"]
+script = ExtResource( 1 )
+
+[node name="itemlist" type="ItemList" parent="."]
+margin_left = 425.956
+margin_top = 3.0
+margin_right = 643.956
+margin_bottom = 671.0
+items = [ "Gorbel", ExtResource( 2 ), false, "Schokotafel", ExtResource( 3 ), false, "Schinken", ExtResource( 4 ), false ]
+max_columns = 3
+script = ExtResource( 5 )
+
+[node name="ItemList2" type="ItemList" parent="."]
+margin_right = 160.0
+margin_bottom = 690.0
+
+[node name="ItemList" type="ItemList" parent="."]
+margin_left = 162.0
+margin_top = -5.0
+margin_right = 424.0
+margin_bottom = 669.0
+

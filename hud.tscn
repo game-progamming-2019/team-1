@@ -1,0 +1,71 @@
+[gd_scene load_steps=7 format=2]
+
+[ext_resource path="res://hud.gd" type="Script" id=1]
+[ext_resource path="res://Assets/hudnochmal.png" type="Texture" id=2]
+[ext_resource path="res://Assets/texturen.png" type="Texture" id=3]
+[ext_resource path="res://Assets/numbers.png" type="Texture" id=4]
+[ext_resource path="res://Assets/texturen_hurt.png" type="Texture" id=5]
+[ext_resource path="res://Assets/test.png" type="Texture" id=6]
+
+[node name="hud" type="CanvasLayer"]
+script = ExtResource( 1 )
+
+[node name="Sprite" type="Sprite" parent="."]
+position = Vector2( 320, 16 )
+scale = Vector2( 0.5, 1 )
+texture = ExtResource( 2 )
+__meta__ = {
+"_edit_lock_": true
+}
+
+[node name="hearts" type="Sprite" parent="."]
+position = Vector2( 10, 10 )
+scale = Vector2( 0.514012, 0.514012 )
+texture = ExtResource( 3 )
+hframes = 5
+frame = 1
+region_enabled = true
+region_rect = Rect2( 96, 640, 160, 32 )
+__meta__ = {
+"_edit_lock_": true
+}
+
+[node name="key" type="Sprite" parent="."]
+position = Vector2( 134.201, 15.1136 )
+texture = ExtResource( 3 )
+region_enabled = true
+region_rect = Rect2( 32, 544, 16, 32 )
+__meta__ = {
+"_edit_lock_": true
+}
+
+[node name="keys" type="Sprite" parent="."]
+position = Vector2( 117.438, 17.1615 )
+scale = Vector2( 2, 2 )
+texture = ExtResource( 4 )
+hframes = 10
+__meta__ = {
+"_edit_lock_": true
+}
+
+[node name="tomate" type="Sprite" parent="."]
+visible = false
+position = Vector2( 630, 13 )
+texture = ExtResource( 5 )
+region_enabled = true
+region_rect = Rect2( 0, 712, 24, 24 )
+
+[node name="spag" type="Sprite" parent="."]
+visible = false
+position = Vector2( 577, 14 )
+texture = ExtResource( 5 )
+region_enabled = true
+region_rect = Rect2( 96, 712, 24, 24 )
+
+[node name="hack" type="Sprite" parent="."]
+visible = false
+position = Vector2( 600, 13 )
+texture = ExtResource( 6 )
+region_enabled = true
+region_rect = Rect2( 24, 712, 40, 24 )
+
